@@ -1,4 +1,4 @@
-package com.example.gameapp_elai; // Siguroha nga sakto ang imong package name
+package com.example.gameapp_elai; 
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         GridLayout gridLayout = findViewById(R.id.gridLayout);
         RadioGroup playerGroup = findViewById(R.id.playerCountGroup);
 
-        // Dinamiko nga paghimo sa mga buttons para mapuno ang grid
+     
         gridLayout.post(() -> {
             int width = gridLayout.getWidth() / 3;
             int height = gridLayout.getHeight() / 3;
